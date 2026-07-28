@@ -1,0 +1,10 @@
+{
+  "name": "@vulnlab/logger",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "Deliberately unsafe logger (secret leakage, log injection, world-writable files).",
+  "dependencies": {
+    "moment": "2.19.3"
+  }
+}

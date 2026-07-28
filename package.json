@@ -1,0 +1,20 @@
+{
+  "name": "vuln-next-lab",
+  "private": true,
+  "version": "0.1.0",
+  "description": "INTENTIONALLY VULNERABLE Next.js monorepo for security training and scanner benchmarking. Do not deploy.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @vulnlab/web",
+    "build": "npm run build --workspace @vulnlab/web",
+    "start": "npm run start --workspace @vulnlab/web",
+    "audit": "npm audit",
+    "audit:json": "npm audit --json"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

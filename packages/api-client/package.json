@@ -1,0 +1,13 @@
+{
+  "name": "@vulnlab/api-client",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "Deliberately unsafe outbound HTTP client (TLS verification off, hardcoded keys, cleartext).",
+  "dependencies": {
+    "axios": "0.21.1",
+    "node-fetch": "2.6.0",
+    "qs": "6.5.1",
+    "request": "2.88.0"
+  }
+}

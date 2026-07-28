@@ -1,0 +1,12 @@
+{
+  "name": "@vulnlab/db",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "Deliberately unsafe data-access layer (SQLi, NoSQLi, prototype pollution).",
+  "dependencies": {
+    "alasql": "1.7.3",
+    "lodash": "4.17.15",
+    "xml2js": "0.4.19"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@vulnlab/utils",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "Deliberately unsafe helpers: command injection, path traversal, SSRF, deserialization, RCE.",
+  "dependencies": {
+    "axios": "0.21.1",
+    "ejs": "3.1.6",
+    "handlebars": "4.0.11",
+    "js-yaml": "3.13.0",
+    "minimist": "1.2.0",
+    "node-serialize": "0.0.4",
+    "semver": "5.7.1",
+    "serialize-javascript": "1.9.0"
+  }
+}

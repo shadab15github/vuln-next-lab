@@ -1,0 +1,12 @@
+{
+  "name": "@vulnlab/auth",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "description": "Deliberately broken authentication package (JWT, hashing, session cookies).",
+  "dependencies": {
+    "cookie": "0.4.0",
+    "jsonwebtoken": "8.5.1",
+    "jwt-decode": "2.2.0"
+  }
+}

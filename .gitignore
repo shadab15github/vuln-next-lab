@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+logs/
+user-files/
+npm-debug.log*
+
+# Real env files are never committed. Copy .env.example to apps/web/.env and
+# fill in throwaway values if you want to exercise the secret-exposure routes.
+.env
+.env.*
+!.env.example
